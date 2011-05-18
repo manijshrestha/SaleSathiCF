@@ -1,0 +1,92 @@
+body{
+	 margin-top: 0px;
+	 font-family: 'Play', arial, serif;
+}
+
+input{
+	font-family: 'Play', arial, serif;
+}
+
+#action_bar{
+  height: 50px;
+  
+  /* background */
+  /*safari and chrome */
+  background: -webkit-gradient(linear, left top, left bottom, from(#3399FF), to(#333399));
+  /* firefox */
+  background: -moz-linear-gradient(top,  #3399FF,  #333399);
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3399FF', endColorstr='#333399');
+  
+  /* corners */
+  border-bottom-right-radius: .75em;
+  border-bottom-left-radius: .75em;
+}
+
+#search_area {
+	text-align: center;
+	padding: 10px;
+}
+
+#search_box {
+	width: 450px;
+	font-size: 16px;
+	background:#FFFFFF url("/SaleSathiCF/images/search.png") no-repeat 4px 4px;
+	padding:4px 4px 4px 22px;
+	border:1px solid #CCCCCC;
+	height:24px;
+}
+
+/*Posting related CSS*/
+.post-item{
+	border-bottom: 1px solid #CCDCEF;
+	padding: 10px 0;
+	position: relative;
+	height: 100px;
+}
+
+.posts div:hover{
+	background: #CCC;
+}
+
+.img-container{
+  	float:left;
+  	margin-left: 5px;
+  	width: 80px;
+}
+
+.img{
+	width: 80px;
+}
+
+.posting-details {
+	width: 100%;
+}
+
+.posting-title{
+
+}
+
+.item-category{
+    font-size: .75em;
+    padding: 2px 5px;
+    background-color: #FFF7CA;
+    border: 1px solid #EDE6BC;
+}
+
+.item-price{
+ 	float:right;
+}
+
+.post-item-meta{
+	list-style: none outside none;
+	display: block;
+}
+
+.post-item-meta li{
+	float: left;
+	font-size: 1em;
+	line-height : 1.25em;
+	margin-right: 15px;
+	color: #999;
+}

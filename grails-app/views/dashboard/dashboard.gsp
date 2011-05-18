@@ -23,7 +23,9 @@
 </div>
 
 <div id="right_pane" class="grid_3">
-	Add here
+	Ad here
+	Sponsored Links
+	$$$
 </div>
 
 </div>
