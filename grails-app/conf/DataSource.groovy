@@ -13,8 +13,13 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-            url = "jdbc:hsqldb:mem:devDB"
+           // override the dataSource one
+			driveClassName="com.mysql.jdbc.Driver"
+			username="salesathi" 
+			password="salesathi"
+			
+            dbCreate = "update"//"create-drop" // one of 'create', 'create-drop','update'
+            url = "jdbc:mysql://localhost:3306/salesathi"//"jdbc:hsqldb:mem:devDB"
         }
     }
     test {
