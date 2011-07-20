@@ -43,10 +43,11 @@ input{
 	padding: 10px 0;
 	position: relative;
 	height: 100px;
+	display:block;
 }
 
 .posts div:hover{
-	background: #CCC;
+	background: #E3E8F4;
 }
 
 .img-container{
@@ -60,7 +61,8 @@ input{
 }
 
 .posting-details {
-	width: 100%;
+	padding-left: 83px;
+	padding-right: 63px;
 }
 
 .posting-title{
@@ -76,6 +78,7 @@ input{
 
 .item-price{
  	float:right;
+ 	width: 60px;
 }
 
 .post-item-meta{

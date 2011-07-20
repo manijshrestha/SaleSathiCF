@@ -22,11 +22,14 @@ class Posting {
    String img
    
    double price
+   
+   long hits
 
    static constraints = {
 	   contactEmail(blank:false, email:true)
 	   title(blank:false, maxSize:148)
 	   price(blank:false)
+	   hits()
 	   description(blank:false, maxSize:5000)
 	   category(nullable:true)
 	   img(nullable:true)

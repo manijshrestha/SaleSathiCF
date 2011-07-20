@@ -14,7 +14,7 @@
 	       		<div class="item-detail">${fieldValue(bean: postingInstance, field:"description")}</div>
 		       		
 		       	<ul class="post-item-meta">
-		       		<li>25</li>
+		       		<li>${fieldValue(bean: postingInstance, field:"hits")}</li>
 		       		<li>Email</li>
 		       		<li>Follow</li>	
 		       	</ul>              
